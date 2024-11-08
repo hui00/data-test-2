@@ -8,8 +8,7 @@
 # This tells sdg-build to perform "translated builds" for each of the specified
 # languages. Each build is in its own subfolder - one for each language.
 languages:
-  - en
-  - es
+  - de
 
 # Destination directory
 # ---------------------
@@ -20,7 +19,7 @@ site_dir: _site
 # -----------
 # This identifies a file containing the schema (possible fields) for metadata.
 # Currently this needs to be a prose.io config, and defaults to '_prose.yml'.
-schema_file: metadata_schema.yml
+schema_file: _prose.yml
 
 # Source directory
 # ----------------
